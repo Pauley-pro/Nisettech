@@ -1,0 +1,64 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: fit-content;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+#getouch{
+    color: #fff;
+}
+
+#contact{
+    color: #F30603;
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    margin-left: 500px;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 3rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid #4270ec;
+    border-radius: 8px;
+    font-size: 16px;   
+}
+
+textarea{
+    height: 5rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+}
