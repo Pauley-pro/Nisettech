@@ -77,7 +77,7 @@ const Contact = () => {
               <input type="text" name="user_name" className="user" id="user"  placeholder="Name"/>
               <input type="email" name="user_email" className="user" id="user" placeholder="Email"/>
               <textarea name="message" className="user" placeholder="Message"/>
-              <input type="submit" value="Send" className="btn lg"/>
+              <input type="submit" value="Send" className="btnModal"/>
               <span>{done && "Thanks for Contacting Nis'etech"}</span>
             </form>
           </div>

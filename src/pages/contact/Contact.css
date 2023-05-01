@@ -96,6 +96,27 @@ textarea {
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+.btnModal{
+    color: var(--color-gray-100);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background: var(--color-primary);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+    padding-top: 1.2rem;
+    padding-bottom: 2.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+
+.btnModal:hover{
+    background: var(--color-secondary);
+    color: var(--color-gray-600);
+}
   
 .buttonSub {
     background-color: var(--purple);
@@ -141,8 +162,10 @@ textarea {
     input[type="text"],
     input[type="email"],
     textarea {
-        max-width: 100%;
+        width: 100%;
     }
+
+    
       
     .buttonSub {
         max-width: 100%;
