@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Image from "../images/main_header.png";
+import Image from "../images/heroimg.png";
 import CountUp from 'react-countup';
 import VisibilitySensor from "react-visibility-sensor";
 
